@@ -11,8 +11,8 @@ from tracker.utils import generate_tracking_link
 # Configuración del servidor SMTP (ejemplo con Gmail)
 SMTP_SERVER = 'smtp.gmail.com'  # Servidor SMTP de Gmail
 SMTP_PORT = 587                 # Puerto para TLS
-SMTP_USER = 'brayanvillamizar14@gmail.com'      # Tu correo de envío
-SMTP_PASSWORD = 'brayanvillamizar'              # Tu contraseña de aplicación (NO la normal)
+SMTP_USER = ''      # Tu correo de envío
+SMTP_PASSWORD = ''              # Tu contraseña de aplicación (NO la normal)
 
 def enviar_correo(destinatario, enlaces):
     """
@@ -43,8 +43,7 @@ if __name__ == "__main__":
     # Lista de destinatarios
     correos = [
         "brayan.acevedo@utp.edu.co",
-        "posiblecliente23@gmail.com",
-        "posiblecliente50@gmail.com"
+        "brayanvillamizar14@gmail.com"
     ]
     # Lista de enlaces reales a trackear
     enlaces_reales = [
